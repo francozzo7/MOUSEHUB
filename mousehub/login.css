@@ -1,0 +1,86 @@
+body{
+    background-color: #DCDCDC;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.area-Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 355px;
+    height: 380px;
+    padding: 55px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: #DCDCDC ;
+    color: #000000;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;;
+}
+
+.login img{
+    width: 350px;
+    height: 153px;
+}
+
+.login::placeholder{
+    color: #252a34;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #007bff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    color: #000000;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.mensagem {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #000000; /* ou a cor desejada para mensagens de sucesso */
+}

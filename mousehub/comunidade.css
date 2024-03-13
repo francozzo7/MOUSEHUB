@@ -1,0 +1,139 @@
+/* Reset de estilos padrão do navegador */
+body,
+h1,
+h2,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo global da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo da página */
+}
+
+.background {
+    background-color: #ffffff; /* Cor de fundo do conteúdo principal */
+    margin: 20px; /* Espaçamento da borda */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header {
+    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.div-centralizada {
+    text-align: center;
+}
+
+/* Estilo dos produtos na página principal */
+.row {
+    margin-top: 20px;
+}
+
+.col-4 {
+    margin-bottom: 20px;
+}
+
+/* Estilo da comunidade */
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newPost {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.infoUser {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.imgUser {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.formPost {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.btnSubmitForm {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.posts {
+    list-style: none;
+    padding: 0;
+}
+
+.post {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}

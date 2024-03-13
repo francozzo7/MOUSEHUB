@@ -1,0 +1,113 @@
+/* Reset de estilos padrão do navegador */
+body,
+h1,
+h2,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo global da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo da página */
+}
+
+.background {
+    background-color: #ffffff; /* Cor de fundo do conteúdo principal */
+    margin: 20px; /* Espaçamento da borda */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header {
+    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.div-centralizada {
+    text-align: center;
+}
+
+/* Estilo do conteúdo principal */
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.carousel-container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    transition: transform 0.5s ease; /* Adiciona uma transição suave ao deslizar */
+}
+
+.carousel-item {
+    flex: 0 0 100%; /* Tamanho de cada item do carrossel */
+}
+
+img {
+    width: 100%; /* Garante que as imagens ocupem 100% da largura do container */
+}
+
+.resumo {
+    text-align: center;
+    border: 2px solid #333; /* Adiciona uma borda de 2px sólida de cor escura */
+    padding: 20px;
+    margin: 10px; /* Adiciona uma margem para dar espaço */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info1,
+.info2 {
+    flex: 1;
+    border: 2px solid #333; /* Adiciona uma borda de 2px sólida de cor escura */
+    padding: 20px;
+    margin: 10px; /* Adiciona uma margem para dar espaço */
+}
